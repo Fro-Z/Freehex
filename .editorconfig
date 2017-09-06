@@ -1,0 +1,15 @@
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.d]
+indent_style = tab
+
+
+dfmt_brace_style = allman
+dfmt_space_after_keyword = false
+dfmt_selective_import_space = true
+dfmt_space_after_cast = false

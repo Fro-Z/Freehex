@@ -1,0 +1,16 @@
+{
+	"name": "freehex",
+	"authors": [
+		"Luis Sanchez"
+	],
+	"dependencies": {
+		"gtk-d:gtkd": "==3.6.2"
+	},
+	"targetType": "executable",
+	"description": "Multiplatform HEX editor",
+	"copyright": "Copyright © 2017, Luis Sanchez",
+	"license": "LGPL",
+	"targetPath" : "bin/",
+	"workingDirectory" : "bin/",
+	"-ddoxFilterArgs" : ["--ex gtk", "--min-protection Public"]
+}
