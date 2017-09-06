@@ -1,0 +1,2 @@
+language: d
+script: dub test -a=x86_64
