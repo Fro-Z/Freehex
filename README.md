@@ -2,6 +2,8 @@
 Freehex is a Free open-source multiplatform hex editor written in D. Freehex uses GtkD bindings of GTK+ library.
 Supported platforms include Windows 7 or newer, Ubuntu 17.04, macOS 10.12 Sierra, but it should work anywhere where GTK+ 3 and DMD are supported.
 
+[![Build Status](https://travis-ci.org/Fro-Z/Freehex.svg?branch=master)](https://travis-ci.org/Fro-Z/Freehex)
+
 ## Features
 - Edit files in hexadecimal and text format (ASCII + UTF8 support)
 - Large file support (Open multi-gigabyte files without loading everything into RAM)
